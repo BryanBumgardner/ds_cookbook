@@ -11,7 +11,7 @@ def loop_of_speed_tests(csvfile):
     csv_writer = csv.writer(csvfile)
     csv_writer.writerow(header)
 
-    print("To end the program, simply close the Terminal window, or type Command + C. The data will be recorded in the Bandwidth_Stopwatch_data.csv in the same directory as this script.")
+    print("To end the program, simply close the Terminal window, or type Control + C. The data will be recorded in the Bandwidth_Stopwatch_data.csv in the same directory as this script.")
 
     while True:
         print("Speed data recorded: " + strftime("%Y-%m-%d %H:%M:%S", localtime()))
